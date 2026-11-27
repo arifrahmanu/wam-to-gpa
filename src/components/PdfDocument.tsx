@@ -150,8 +150,8 @@ const PdfDocument = ({ terms }: DocumentProps) => {
                 This tool is provided by LPDP Unimelb Association (LuNA) for
                 informational use only. For more information on how we calculate
                 the GPA conversion, visit{" "}
-                <Link src="https://wamtogpa.lpdpunimelb.com/help">
-                  wamtogpa.lpdpunimelb.com/help
+                <Link src="https://wam.lpdpuom.com/help">
+                  wam.lpdpuom.com/help
                 </Link>
                 .
               </Text>
