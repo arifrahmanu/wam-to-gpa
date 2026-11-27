@@ -75,7 +75,7 @@ export default function HelpPage() {
 
         <h2 className="text-lg font-semibold mt-8">Worked example</h2>
         <p className="mt-2 text-gray-700">
-          Five subjects, each worth 12.5 credit:
+          Four subjects, each worth 12.5 credit:
         </p>
         <div className="overflow-x-auto mt-4">
           <table className="w-full border-collapse text-sm">
