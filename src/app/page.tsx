@@ -78,7 +78,7 @@ export default function Home() {
       <div className="bg-gray-100">
         <div className="container max-w-5xl m-auto flex flex-row items-center p-3 gap-4">
           <div className="flex-1 text-sm text-sky-700">
-            <Link href="https://wamtogpa.lpdpunimelb.com/help">
+            <Link href="https://wam.lpdpuom.com/help">
               See how GPA is calculated
             </Link>
           </div>
