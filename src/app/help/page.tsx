@@ -20,7 +20,7 @@ export default function HelpPage() {
     <main className="min-h-screen bg-gray-50">
       <div className="container max-w-3xl mx-auto p-6 my-6 bg-white rounded-lg shadow-sm">
         <Link href="/" className="text-sm text-sky-700 underline">
-          ← Back to calculator
+          ← Back to converter
         </Link>
 
         <h1 className="text-2xl font-bold mt-4 text-[#002c5c]">
@@ -28,8 +28,8 @@ export default function HelpPage() {
         </h1>
 
         <p className="mt-4 text-gray-700">
-          This calculator gives an estimate of your GPA from your University of
-          Melbourne marks. It is provided by LPDP UniMelb Association (LUnA) for
+          This converter gives an estimate of your GPA from your University of
+          Melbourne marks. It is provided by LPDP Unimelb Association (LUnA) for
           informational use only and is not an official result.
         </p>
 
@@ -66,8 +66,8 @@ export default function HelpPage() {
 
         <h2 className="text-lg font-semibold mt-8">Step 3: Calculate the weighted average</h2>
         <p className="mt-2 text-gray-700">
-          For each subject, multiply its grade points by its credit (SKS). Add up
-          all of these values across every term, then divide by the total credit.
+          For each subject, multiply its grade points by its credit. Add up all
+          of these values across every term, then divide by the total credit.
         </p>
         <div className="mt-4 p-4 bg-gray-100 rounded-md font-mono text-sm">
           GPA = Σ (grade points × credit) ÷ Σ credit
@@ -92,12 +92,11 @@ export default function HelpPage() {
               <tr className="border-b"><td className="p-2">75</td><td className="p-2">H2A</td><td className="p-2">3.7</td><td className="p-2">46.25</td></tr>
               <tr className="border-b"><td className="p-2">65</td><td className="p-2">H3</td><td className="p-2">3.0</td><td className="p-2">37.50</td></tr>
               <tr className="border-b"><td className="p-2">63</td><td className="p-2">P</td><td className="p-2">2.0</td><td className="p-2">25.00</td></tr>
-              <tr className="border-b"><td className="p-2">81</td><td className="p-2">H1</td><td className="p-2">4.0</td><td className="p-2">50.00</td></tr>
             </tbody>
           </table>
         </div>
         <p className="mt-4 text-gray-700">
-          Total points × credit = 205. Total credit = 62.5. GPA = 205 ÷ 62.5 = <b>3.28</b>.
+          Total points × credit = 155. Total credit = 50. GPA = 155 ÷ 50 = <b>3.10</b>.
         </p>
 
         <h2 className="text-lg font-semibold mt-8">Notes</h2>
